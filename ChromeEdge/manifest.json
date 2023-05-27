@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Zip and Mov Domain Blocker",
+  "author": "johnhoranqld@gmail.com",
+  "version": "1.0",
+  "description": "Blocks traffic to .zip and .mov domains. That's it - nothing more, nothing less.",
+  "icons": {
+    "128": "logos/logo-128.png"
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.zip/*",
+    "*://*.mov/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "block_domains",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ],
+    "declarative_rules": []
+  }
+}
