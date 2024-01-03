@@ -9,6 +9,9 @@
       "urlFilter": "*://*.zip/*",
       "resourceTypes": [
         "main_frame"
+      ],
+      "excludedDomains": [
+        "sourceforge.net"
       ]
     }
   },
@@ -22,6 +25,9 @@
       "urlFilter": "*://*.mov/*",
       "resourceTypes": [
         "main_frame"
+      ],
+      "excludedDomains": [
+        "sourceforge.net"
       ]
     }
   }
