@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Zip and Mov Domain Blocker",
   "author": "johnhoranqld@gmail.com",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Blocks traffic to .zip and .mov domains. That's it - nothing more, nothing less.",
   "icons": {
     "128": "logos/logo-128.png"
